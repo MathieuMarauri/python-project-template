@@ -7,4 +7,5 @@ To use this template you must install:
 * [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 * [poetry](https://python-poetry.org/docs/)
 
-To build a python project with this template, cimply run `cookiecutter https://github.com/MathieuMarauri/python-project-template`
+To build a python project with this template, simply run the following command:
+`cookiecutter https://github.com/MathieuMarauri/python-project-template`
