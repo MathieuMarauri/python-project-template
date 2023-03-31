@@ -1,0 +1,12 @@
+stages: 
+  - validation
+
+linter-job:
+  stage: validation
+  image: python:latest
+  before_script:
+    - pip install poetry
+    - poetry install
+    - source `poetry env info --path`/bin/activate
+  script:
+    - python -m flake8 *.py

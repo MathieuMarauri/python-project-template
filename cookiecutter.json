@@ -1,0 +1,7 @@
+{
+    "project_name": "my-python-project",
+    "description": "",
+    "author": "",
+    "python": "^3.11",
+    "analysis": "y"
+}

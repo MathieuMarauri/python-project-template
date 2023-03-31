@@ -1,0 +1,8 @@
+# Mac specific files
+*._DS_Store
+
+# VSCode project settings
+.vscode/
+
+# Poetry lock file
+poetry.lock
