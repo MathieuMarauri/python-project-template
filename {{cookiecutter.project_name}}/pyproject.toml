@@ -17,7 +17,10 @@ pandas = "^1.1.3"
 flake8 = "^5.0.0"
 black = "^23.3.0"
 isort = "^5.12.0"
+pre-commit = "^3.2.1"
+{%- if cookiecutter.analysis == "y" %}
 nbqa = "^1.6.4"
+{%- endif %}
 
 [build-system]
 requires = ["poetry-core"]
